@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    style="@style/SCREEN"
     tools:context=".RecuperarContra">
 
     <ImageView
@@ -24,15 +24,17 @@
 
     <TextView
         android:id="@+id/textView2"
+        android:textColor="#3e6faf"
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        android:layout_marginEnd="248dp"
         android:layout_marginBottom="8dp"
+
         android:text="Recupera Tu cuenta"
-        android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/textView6"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView6"

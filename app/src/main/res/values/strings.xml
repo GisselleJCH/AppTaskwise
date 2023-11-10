@@ -1,3 +1,49 @@
 <resources>
-    <string name="app_name">AppTaskwise</string>
+    <string name="app_name">TaskWise</string>
+
+    <string name="priva">
+Términos de Privacidad de Taskwise\n\n
+Fecha de entrada en vigor: 17 de noviembre 2023\n
+
+Taskwise respeta y valora la privacidad de nuestros usuarios. Esta política de privacidad describe cómo recopilamos, utilizamos y protegemos la información personal que nos proporcionas a través de la aplicación Taskwise. Al utilizar Taskwise, aceptas las prácticas descritas en este documento.\n\n
+\n
+1. Información que Recopilamos\n
+
+1.1 Información de Registro\n\n
+
+Recopilamos la información que nos proporcionas durante el proceso de registro, que puede incluir tu nombre, dirección de correo electrónico y contraseña.
+\n\n
+1.2 Información de Tareas\n\n
+
+Taskwise almacena las tareas y listas de tareas que creas en la aplicación. Esta información está cifrada y solo se utiliza para proporcionar los servicios de la aplicación.
+\n\n
+2. Uso de la Información\n
+
+2.1 Propósitos Principales\n\n
+
+Utilizamos la información que recopilamos para proporcionarte los servicios de Taskwise, incluida la gestión de tareas.
+\n\n
+2.2 Comunicaciones\n\n
+
+Podemos utilizar tu dirección de correo electrónico para enviarte comunicaciones relacionadas con el servicio, como actualizaciones del producto y notificaciones sobre tu cuenta.
+\n\n
+3. Compartir Información\n\n
+
+No compartimos tu información personal con terceros, a menos que sea necesario para proporcionarte los servicios de Taskwise o estemos legalmente obligados a hacerlo.
+\n\n
+4. Seguridad de la Información\n\n
+
+Taskwise utiliza medidas de seguridad técnicas y organizativas para proteger la información personal que recopilamos y almacenamos. Sin embargo, ninguna transmisión de datos por internet o almacenamiento electrónico puede garantizar la seguridad al 100%.
+\n\n
+5. Cambios en la Política de Privacidad\n
+\n
+Nos reservamos el derecho de modificar esta política de privacidad en cualquier momento. Te notificaremos sobre cambios significativos a través de la aplicación o por otros medios antes de que los cambios entren en vigor.
+\n\n
+6. Contacto\n\n
+
+Si tienes preguntas sobre esta política de privacidad, por favor contáctanos en taskwiseapp@gmail.com\n
+Fecha de entrada en vigor: 17 de noviembre 2023
+    </string>
+
+
 </resources>

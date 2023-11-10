@@ -1,9 +1,31 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.AppTaskwise" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-    </style>
+    <!-- Base application theme for light mode. -->
+    <style name="Base.Theme.AppTaskwise" parent="Theme.Material3.DayNight.NoActionBar"/>
+        <item name="colorPrimary" type="color">#000000</item>
+        <item name="colorPrimaryvariant" type="color">#2196F3</item>
+        <item name="colorPrimarywhite" type="color">#E8E8E8</item>
+        <item name="colorsecundary" type="color">#03A9F4</item>
+        <item name="colorsecundary1" type="color">#00BCD4</item>
+        <item name="coloblack" type="color">#000000</item>
+
+
 
     <style name="Theme.AppTaskwise" parent="Base.Theme.AppTaskwise" />
+
+    <style name="SCREEN">
+        <item name="android:background">#fff</item>
+    </style>
+    <style name="TEXT">
+        <item name="android:textColor">#00008B</item> <!-- Puedes ajustar este color a tu preferencia -->
+        <item name="android:textSize">16sp</item> <!-- Tamaño de fuente personalizado -->
+        <item name="android:textStyle">bold</item> <!-- Texto en negritas -->
+
+    </style>
+    <style name="BUTTON">
+        <item name="android:background">@color/colorsecundary</item>
+        <item name="android:textColor">#fff</item>
+
+    </style>
+
+
 </resources>

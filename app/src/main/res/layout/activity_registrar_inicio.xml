@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    style="@style/SCREEN"
     tools:context=".RegistrarInicio">
 
     <ImageView
@@ -86,6 +86,8 @@
         android:layout_height="21dp"
         android:layout_marginStart="36dp"
         android:text="Iniciar Sesion"
+        android:textColor="#3e6faf"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/editTextCorreo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"

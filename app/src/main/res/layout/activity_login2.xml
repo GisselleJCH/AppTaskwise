@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    style="@style/SCREEN"
+
     tools:context=".LoginActivity">
 
     <ImageView
@@ -45,6 +46,8 @@
         android:layout_marginBottom="100dp"
         android:background="@drawable/background_rounded_edittext"
         android:hint="  Correo electrónico"
+        android:textColor="@color/black"
+        style="@style/BUTTON"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toTopOf="@+id/editTextContraseña"
         app:layout_constraintEnd_toEndOf="parent"
@@ -61,11 +64,26 @@
         android:layout_marginEnd="16dp"
         android:background="@drawable/background_rounded_edittext"
         android:hint="  Contraseña"
+        android:textColor="@color/black"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextCorreo" />
+
+    <ImageButton
+        android:id="@+id/showPasswordButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="10dp"
+        android:scaleType="fitCenter"
+        android:background="@drawable/custom_eye_icon"
+        android:src="@drawable/ojo"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextContraseña"
+        app:layout_constraintEnd_toEndOf="@+id/editTextContraseña"
+        app:layout_constraintTop_toTopOf="@+id/editTextContraseña"
+        />
 
     <TextView
         android:id="@+id/textView"
@@ -76,7 +94,7 @@
         android:layout_marginEnd="100dp"
         android:layout_marginBottom="420dp"
         android:text="Crea una cuenta"
-        android:textColor="#000000"
+        android:textColor="#3e6faf"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -120,5 +138,19 @@
         app:layout_constraintStart_toStartOf="parent"
          />
 
+    <ImageButton
+        android:id="@+id/botonconfi"
+        android:layout_width="47dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="24dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/turc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+

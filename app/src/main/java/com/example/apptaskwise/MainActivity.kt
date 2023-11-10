@@ -12,6 +12,8 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
+    private var activityStarted = false // Variable de control para evitar la apertura duplicada de LoginActivity
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
@@ -26,10 +28,13 @@ class MainActivity : AppCompatActivity() {
         beta.startAnimation(animacion2)
         imge.startAnimation(animacion1)
 
-        Handler(Looper.getMainLooper()).postDelayed({
-            val intent = Intent(this, LoginActivity::class.java)
-            startActivity(intent)
-            finish()
-        }, 4000)
+        if (!activityStarted) {
+            Handler(Looper.getMainLooper()).postDelayed({
+                val intent = Intent(this, LoginActivity::class.java)
+                startActivity(intent)
+                finish()
+                activityStarted = true // Marca que LoginActivity se ha iniciado
+            }, 4000)
+        }
     }
 }

@@ -2,4 +2,20 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Estilo para el color azul oscuro en negritas -->
+    <style name="DarkBlueText">
+        <item name="android:textColor">#006AD5</item> <!-- Puedes ajustar este color a tu preferencia -->
+        <item name="android:textSize">16sp</item> <!-- Tamaño de fuente personalizado -->
+        <item name="android:textStyle">bold</item> <!-- Texto en negritas -->
+    </style>
+
+    <!-- Estilo para la letra X en negritas y más grande -->
+    <style name="LargeXText">
+        <item name="android:textColor">#006AD5</item>
+        <item name="android:textSize">24sp</item> <!-- Tamaño de fuente más grande -->
+        <item name="android:textStyle">bold</item> <!-- Texto en negritas -->
+    </style>
+
+
 </resources>
