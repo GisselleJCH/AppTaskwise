@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dimensiones por defecto -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Dimensiones para pantalla ancha (w936dp) -->
+    <dimen name="activity_horizontal_margin_w936dp">24dp</dimen>
+    <dimen name="activity_vertical_margin_w936dp">24dp</dimen>
+
+    <!-- Dimensiones para pantalla extra ancha (w1240dp) -->
+    <dimen name="activity_horizontal_margin_w1240dp">32dp</dimen>
+    <dimen name="activity_vertical_margin_w1240dp">32dp</dimen>
+
+
+</resources>
