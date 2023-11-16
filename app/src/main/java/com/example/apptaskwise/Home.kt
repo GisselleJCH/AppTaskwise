@@ -69,18 +69,28 @@ class Home : AppCompatActivity() {
         contenedorListas.removeAllViews()
 
         // Mostrar las listas en el LinearLayout y el nombre de cada lista
+        // Mostrar las listas en el LinearLayout y el nombre de cada lista
         for (i in listas.indices) {
             val lista = listas[i]
 
             val listaView = TextView(this)
-            listaView.text = "( ${i + 1} )  ${lista.nombre}"
+            listaView.text = " (${i + 1})  ${lista.nombre}"
             listaView.textSize = 18f
             listaView.setTextColor(ContextCompat.getColor(this, R.color.black))
             listaView.background = getDrawable(R.drawable.background_rounded_edittext)
 
+            // Agregar un margen inferior a cada elemento de la lista
+            val marginParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            )
+            marginParams.setMargins(0, 0, 0, 16) // Ajusta el valor según sea necesario
+            listaView.layoutParams = marginParams
+
             // Agregar el nombre de la lista al LinearLayout
             contenedorListas.addView(listaView)
         }
+
     }
 
 }
